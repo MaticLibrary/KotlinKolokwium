@@ -124,3 +124,35 @@ fun main() {
     }
     println("Nowy tekst z separatorami: $nowyTekst")
 }
+
+/*
+// Funkcja usuwająca wszystkie wystąpienia podanych znaków z tekstu
+fun usunZnaki(tekst: String, znakiDoUsuniecia: String): String {
+    var wynik = ""  // Pusty string, w którym będziemy budować wynikowy tekst
+    // Przechodzimy po każdym znaku w tekście
+    for (znak in tekst) {
+        // Jeśli znak NIE znajduje się w ciągu znaków do usunięcia, dodajemy go do wyniku
+        if (!znakiDoUsuniecia.contains(znak)) {
+            wynik += znak
+        }
+    }
+    return wynik
+}
+
+fun main() {
+    // Przykład 1: usuwanie wszystkich '-' ze stringa "a-s-d-f-g-h"
+    val tekst1 = "a-s-d-f-g-h"
+    val wynik1 = usunZnaki(tekst1, "-")  // Usuwamy znak '-'
+    println("Po usunięciu '-': $wynik1")  // Wypisze: asdfgh
+
+    // Przykład 2: usuwamy kilka znaków, np. 'a', 's', 'g'
+    val tekst2 = "abrakadabra"
+    val znakiDoUsuniecia2 = "asg"
+    val wynik2 = usunZnaki(tekst2, znakiDoUsuniecia2)
+    println("Po usunięciu '$znakiDoUsuniecia2' z '$tekst2' zostaje: $wynik2")  // wypisze: brkdbra
+}
+
+*/
+
+
+
